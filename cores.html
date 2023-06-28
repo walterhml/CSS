@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>trabalhando com cores no css</title>
+    <link rel="stylesheet" href="#">
+</head>
+
+<body style="background-color: rgb(255, 0, 221);">
+    <h1>Trabalhando com cores</h1>
+    <hr>
+    <p>Em HTML, as cores também podem ser especificadas usando valores RGB, velores HEX, valores HSL e valores RGBA</p>
+    <h2>Valores em HSL</h2>
+    <p>O modelo HSL (tonalidade, Saturação e luz, em ingles), baseado no trabalho do pintor albert H. munsell, criador
+        do munsell atlas, é um modelode representação das cores
+        considerando natural, ja que se aproxima bastante da percepção fisiologica da cor peço olho humano.
+    </p>
+    <p>O modelo HSL consiste em decompor a cor de acordo com criterios fisiologicos: tonalidade, que corresponde a
+        pecepção da cor, saturação, que descreve
+        a pureza da cor, ou sejam seu carater brilhante ou fosco, e brilho, que indica a quantidade de luz da cor, ou
+        seja, o seu aspecto claro ou sombrio.
+    </p>
+
+    <h3 style="background-color:hsl(0, 100%, 50%);">hsl - Vermelho</h3>
+    <h3 style="background-color: hsl(240, 100%, 50%);">hsl - Azul</h3>
+    <h3 style="background-color: hsl(39, 100%, 50%);">hsl - Amarelo</h3>
+
+    <h2>Cores em RGB</h2>
+    <p>Na formação de cores por luz, as cores são formadas a partir de três cores primarias. As três cores primarias
+        mais conhecidas são: Vermelho, Verde e Azul, ou RGB (do ingles, Red-Green-Blue). A partir delas pode-se criar as
+        demais cores.
+    </p>
+
+    <p>As coisas são criadas na computação com a combinação de valores RGB. cada uma dessas cores primarias recebe um
+        valor de intensidade
+        que varia de 0 a 255
+    </p>
+
+    <h3 style="background-color: rgb(255,0,0);">rgb - Vermelho</h3>
+    <h3 style="background-color: rgb(255, 255, 255);">rgb - Azul</h3>
+    <h3 style="background-color: rgb(255, 255,0);">rgb - Amarelo</h3>
+
+    <h2>Cores Hexadecimal</h2>
+    <p>Podemos perceber que os códigos RGB são sempre formados com 6 dígitos, o que dá 2 dígitos para cada cor.</p>
+    <p>Se em 2 dígitos hexadecimais conseguimos valores de 00 a FF, então conseguimos representar valores de 0 a 255 da
+        base decimal
+    </p>
+
+    <p>se o branco é formado com a combinação dos maiores valores para RGB (255 para Red, 255 para Green e 255 para
+        Blue), o código RGB do branco é: #FFFFFF.
+    </p>
+
+    <p>Então 255 vermelho (FF), 255 verde (FF) e 255 Azul (FF). Juntando tudo com o # do início, temos o #FFFFFF.
+    </p>
+
+    <h3 style="background-color: #000; color: #fff;">Preto</h3>
+    <h3 style="background-color: #808080;">Cinza</h3>
+    <h3 style="background-color: #fff; border-style: solid">Branco</h3>
+
+    <h2>Cores RGBA</h2>
+
+    <p>É o sistema de cores formado pelas cores Vermelho (Red), Verde (Green), Azul (Blue) e pelo canal Alpha. O sistema
+        permite exibir todas as cores do sistema RGB, porém permite a utilização da transparência, artifício amplamente
+        usado em softwares de edição de imagem com camadas.
+    </p>
+
+    <h3 style="background-color:rgba(255, 0, 0.3);">Vermelho</h3>
+    <h3 style="background-color:rgba(0, 22, 223, 0.2) ;">Azul</h3>
+    <h3 style="background-color:rgba(0, 255, 0, 0.4) ;">Verde</h3>
+
+</body>
+
+</html>
