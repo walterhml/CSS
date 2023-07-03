@@ -40,16 +40,56 @@
         }
 
         hr {
-            width: 70px;
+            width: 70%;
             height: 15px;
             margin: auto;
             background-color: purple;
             border: none;
             border-radius: 5px;
             box-shadow: black 1px 1px 5px inset;
-        
-        
+
         }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-align: justify;
+            letter-spacing: 2px;
+            /* espaçamento entre os caracteres */
+        }
+
+        li {
+            background-color: #7ff;
+            list-style: square;
+        }
+
+        #destaque {
+            background-color: yellow;
+            border: solid 2px black;
+        }
+
+        img {
+            width: 300px;
+            height: 200;
+            border-radius: 8px;
+
+        }
+
+        #centro {
+            text-align: center;
+
+        }
+
+.desck {
+background-color: green;
+
+}
+.arrendondada {
+border-radius: 20px;
+
+}
+
     </style>
 
 
@@ -75,7 +115,7 @@
     <p>Abaixo você encontra uma lista com alguns programas utilizados para o desenvolvimento de sites:</p>
 
     <ul>
-        <li>Brackets</li>
+        <li id="destaque">Brackets</li>
         <li>Notepad++</li>
         <li>Sublime</li>
         <li>Dreamweaver</li>
@@ -83,10 +123,10 @@
     </ul>
 
     <hr>
-    <p>Desenvolvido de acordo com os Padrões Web.</p>
 
 
-
+    <p class="desck arredondada"><b>De acordo com os padrões Web.</b></p>
+    <p id="centro" class="arredondada"><img src="imagens/chapeleiro.jpg" alt="chapeleiro Maluco"></p>
 
 
 
